@@ -26,7 +26,6 @@ body {
     background-size: auto;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    justify-content: center;
 }
 
 .page {
@@ -85,6 +84,8 @@ footer {
     max-width: 350px;
     text-align: center;
     letter-spacing: 0.02rem;
+    align-self: flex-start;
+    max-width: 100%;
 }
 
 .special {
@@ -117,7 +118,7 @@ footer {
         grid-template-columns: minmax(480px, 600px) 1fr;
         gap: 4rem;
         align-items: center;
-        max-width: 12000px;
+        max-width: 1200px;
         margin: 0 auto;
     }
     .card {
